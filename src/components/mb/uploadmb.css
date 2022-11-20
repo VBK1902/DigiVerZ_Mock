@@ -1,0 +1,177 @@
+.mbtext {
+  padding-left: 10%;
+  margin-top: -2.5%;
+}
+
+.mbimgbig {
+  width: 950px;
+  height: 700px;
+  padding-left: 1.1%;
+}
+
+.ptext{
+  padding-top: 5%;
+  width: 400px;
+  font-family: "Raleway";
+  font-weight: 900;
+  padding-left: -5%;
+  font-size: 60px;
+}
+
+.teltext {
+  font-size: 40px;
+  color: black;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 0%;
+  padding-bottom: 5%;
+}
+
+.tel {
+  height: 750px;
+}
+
+.teldiv {
+  display: flex;
+}
+
+.telimg {
+  width: 500px;
+  height: 400px;
+  padding-left: 5%;
+  padding-top: 4%;
+  text-align: center;
+}
+
+.telpara {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.modelsel {
+  display: flex;
+}
+
+/* .predh{
+  height: 300px;
+} */
+
+.churnsection {
+  display: flex;
+  margin-top: 5%;
+  height: 300px;
+}
+
+.churnres {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #ff4646;
+}
+
+.sel1 {
+  position: absolute;
+  left: -15%;
+  top: -10%;
+}
+
+.sel2 {
+  position: absolute;
+  top: -45.2%;
+  left: 130%;
+}
+
+.custom-btnmb {
+  width: 130px;
+  height: 50px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-10mb {
+  transition: all 0.3s ease;
+  overflow: hidden;
+  top: 120px;
+  left: 165px;
+}
+.btn-10mb:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+}
+.btn-10mb:hover {
+  color: #fff;
+}
+.btn-10mb:hover:after {
+  background: black;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.custchurn {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color:black;
+  padding-bottom: 3%;
+}
+
+.selectbox{
+  width: 500px;
+  margin-bottom: 3%;
+}
+
+.partselect{
+  margin-bottom: 6.4%;
+}
+
+.mainform{
+  display: flex;
+  margin-left: 10%;
+}
+
+.tenure{
+  margin-top: 3%;
+}
+
+/* .seconddiv{
+  margin-left: 10%;
+} */
+
+.churnbut{
+  margin-left: 33%;
+  top:30px;
+  margin-bottom: 10%;
+}
+
+.finalchurnres{
+  height: 100px;
+  text-align: left;
+  padding-top:5%;
+  padding-bottom: 6%;
+  margin-top: -5%;
+  margin-left: 14%;
+  margin-bottom: 5%;
+  border: 4px solid black;
+  width:70%;
+}
+
+.firstp{
+  margin-bottom: 2%;
+}

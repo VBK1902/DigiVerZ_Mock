@@ -1,0 +1,39 @@
+.sfcontainerdiv {
+  height: 312vh;
+  overflow: hidden;
+}
+
+.selectmodel {
+  display: absolute;
+  left: -14%;
+  top: 1%;
+}
+
+.monthbox {
+  top: 10%;
+  left: 36%;
+}
+
+.selectboxm {
+  width: 527px;
+}
+
+.sfb {
+  left: -30.5%;
+}
+
+.sftop{
+    margin-top: 2%;
+}
+
+.salesimg {
+  margin-left: 5%;
+  height: 600px;
+}
+
+.salespara {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-left: 5%;
+  width: 650px;
+}

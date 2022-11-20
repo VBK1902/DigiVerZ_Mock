@@ -1,0 +1,49 @@
+.edasf{
+    margin-top: 8%;
+}
+
+.edaptext{
+    font-size: 50px;
+}
+
+.tablesize{
+    height: 43vh;
+}
+
+.schemaeda{
+        display: grid;
+        list-style: none;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 30px;
+        margin: 10px;
+        height: 410px;
+        margin-left: 9%;
+}
+
+.cateda{
+    margin-left: 45%;
+    width: 800px;
+    height: 400px;
+}
+
+.monsaleseda{
+    margin-right: 10%;
+    width: 1200px;
+    height: 400px;
+}
+
+.monsalesdiv{
+    margin-top: 5%;
+}
+
+.builtdiv{
+    margin-top: -10%;
+    text-align: center;
+}
+
+.foreplot{
+    margin-top: 5%;
+    margin-right: 13%;
+    margin-bottom: 5%;
+}

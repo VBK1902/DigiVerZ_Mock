@@ -1,0 +1,110 @@
+.aa-report-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.aa-report-title {
+  margin-top: 3%;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  color: #ff4646;
+}
+
+.aa-report-model {
+  margin-top: 3%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-inline: 10%;
+  border: 5px solid rgb(24, 54, 47);
+  padding: 20px;
+}
+
+.aa-overall-button-container {
+  height: 69vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 16%;
+  background: inherit;
+}
+
+.aa-overall-button {
+  width: 380px;
+  height: 100px;
+  padding: 20px;
+  margin-top: 3%;
+  margin-left: 5%;
+  color: #ff4646;
+  background: none;
+  box-shadow: 10px 5px 3px #efefef5a;
+  font-size: 30px;
+  font-weight: 900;
+}
+.aa-overall-button:hover {
+  border: 5px solid rgb(24, 54, 47);
+}
+.aa-overall-button-container-title {
+  font-size: 60px;
+  font-weight: 900;
+  color: black;
+  width: 1000px;
+  text-align: left;
+  padding-left: 5%;
+  margin-top: -5%;
+}
+
+/*footer*/
+
+.dqrfootaa {
+  z-index: -1;
+  position: absolute;
+  top: 160px;
+  left: 155px;
+  width: 1380px;
+  height: 630px;
+}
+
+/*result*/
+.fl-tableaa {
+    margin-top: 8%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-collapse: collapse;
+    white-space: nowrap;
+    background-color: white;
+    border: 5px solid rgb(24, 54, 47);
+    margin-bottom: 8%;
+    width: 80%;
+}
+
+.fl-tableaa td, .fl-tableaa th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-tableaa td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 18px;
+}
+
+.fl-tableaa thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-tableaa thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-tableaa tr:nth-child(even) {
+    background: #F8F8F8;
+}

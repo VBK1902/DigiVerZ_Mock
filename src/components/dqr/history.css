@@ -1,0 +1,90 @@
+.animatehis {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:70vh;
+  margin: auto;
+  /* 	width: 350px; */
+  /* 	font-size:26px; */
+  font-family: Helvetica, sans-serif, Arial;
+  animation: load 1.2s infinite 0s ease-in-out;
+  animation-direction: alternate;
+  text-shadow: 0 0 1px white;
+  }
+
+.historycontainer {
+  margin-top: 7%;
+}
+
+.history-page-title {
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  color: #ff4646;
+}
+
+.table {
+  margin-left: 8%;
+  margin-top: 3%;
+  width: 1300px;
+}
+
+.dim1 {
+  display: inline-block;
+  position: absolute;
+  width: 250px;
+  height: 130px;
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 20px;
+  top: 97.8%;
+  left: 2%;
+}
+
+.com1 {
+  display: inline-block;
+  position: absolute;
+  width: 250px;
+  height: 130px;
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 20px;
+  top: 97.8%;
+  left: 26%;
+}
+
+.uniq1 {
+  display: inline-block;
+  position: absolute;
+  width: 250px;
+  height: 130px;
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 20px;
+  top: 131%;
+  left: 2%;
+}
+
+.dqrreportimg1 {
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  left: 34%;
+  top: 100%;
+  z-index: -1;
+}
+
+.notselected{
+    font-size: 20px;
+    text-align: center;
+}
+
+.notselectedc{
+    font-size: 20px;
+    width: 400px;
+    margin-left: 85%;
+    padding-bottom: 20%;
+}

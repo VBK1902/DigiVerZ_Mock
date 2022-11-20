@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { Navbar } from "./components/common/navbar";
+import { Landingpage } from "./components/common/landingpage";
+import { Upload } from "./components/dqr/upload";
+import { Report } from "./components/dqr/report";
+import { History } from "./components/dqr/history";
+import { UploadMB } from "./components/mb/uploadmb";
+import { ReportMB } from "./components/mb/reportmb";
+import { UploadSF } from "./components/sf/uploadsf";
+import { ReportSF } from "./components/sf/reportsf";
+import { UploadAA } from "./components/aa/uploadaa";
+import { ReportAA } from "./components/aa/reportaa";
 
-function App() {
+import "./App.css";
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Landingpage />}></Route>
+        <Route path="dqr">
+          <Route index element={<Upload />}></Route>
+          <Route path="report" element={<Report />}></Route>
+          <Route path="history" element={<History />}></Route>
+        </Route>
+        <Route path="mb">
+          <Route index element={<UploadMB />}></Route>
+          <Route path="report" element={<ReportMB />}></Route>
+        </Route>
+        <Route path="sf">
+          <Route index element={<UploadSF />}></Route>
+          <Route path="report" element={<ReportSF />}></Route>
+        </Route>
+        <Route path="aa">
+          <Route index element={<UploadAA />}></Route>
+          <Route path="report" element={<ReportAA />}></Route>
+        </Route>
+      </Routes>
     </div>
   );
-}
-
-export default App;
+};
